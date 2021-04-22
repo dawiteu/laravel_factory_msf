@@ -13,7 +13,7 @@ class CreateTypeformationsTable extends Migration
      */
     public function up()
     {
-        Schema::create('typeformations', function (Blueprint $table) {
+        Schema::create('typeofformations', function (Blueprint $table) {
             $table->id();
             $table->string('nom', 30);
             $table->timestamps();
@@ -27,6 +27,6 @@ class CreateTypeformationsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('typeformations');
+        Schema::dropIfExists('typeofformations');
     }
 }

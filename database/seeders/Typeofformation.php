@@ -14,7 +14,7 @@ class Typeofformation extends Seeder
      */
     public function run()
     {
-        DB::table('typeformations')->insert([
+        DB::table('typeofformations')->insert([
             [
                 "nom" =>        "Coding Scholl 16", 
                 "created_at" => now()
