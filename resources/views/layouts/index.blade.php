@@ -10,7 +10,7 @@
 <body>
     
     <div class="container">
-        @include('partials.header') 
+        @include('layouts.header') 
 
         <div class="container mt-5 border">
             @yield('content')
